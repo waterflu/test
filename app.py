@@ -34,7 +34,7 @@ new_tROAS = st.slider("Select new tROAS value", min_value=1.0, max_value=15.0, s
 predicted_spend = predict_spend(new_tROAS)
 
 # Display results
-st.write(f"### Predicted Spend:£{predicted_spend:.2f}")
+st.write(f"### Predicted Spend: £{predicted_spend:,.2f}")
 
 # Show historical data
 st.write("#### Historical Data")
