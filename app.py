@@ -30,7 +30,7 @@ def predict_spend(new_tROAS):
     return np.exp(pred_log_spend)
 
 # User input for tROAS
-new_tROAS = st.slider("Select new tROAS value", min_value=1.0, max_value=5.0, step=0.1, value=2.5)
+new_tROAS = st.slider("Select new tROAS value", min_value=1.0, max_value=15.0, step=0.1, value=2.5)
 predicted_spend = predict_spend(new_tROAS)
 
 # Display results
