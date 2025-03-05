@@ -9,8 +9,8 @@ st.write("Estimate how spend changes when adjusting target ROAS.")
 
 # Sample data (replace with real data)
 data = {
-    'tROAS': [12.96, 12.47, 12.01, 11.94, 11.64, 12.57],
-    'Spend': [537570, 551493, 601826, 632184, 605314, 561947]
+    'tROAS': [12.96, 12.47, 12.01, 11.94, 11.64, 12.57, 12.62],
+    'Spend': [537570, 551493, 601826, 632184, 605314, 561947, 584264]
 }
 df = pd.DataFrame(data)
 
